@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jundiá Sorvetes Campinas Cambuí - A Alegria do Verão em Cada Casquinha!</title>
+  <!-- Google Fonts: Fredoka & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=14" />
+</head>
+<body>
+  <!-- Header de Navegação Fiel à Inspiração -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="#" class="brand-logo" aria-label="Jundiá Sorvetes Campinas Cambuí" id="logoHomeBtn">
+        <img src="assets/images/logo.png?v=6" alt="Logo Jundiá Sorvetes" class="logo-img" />
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#sabores" class="nav-item nav-pill" id="navSaboresBtn">SABORES</a></li>
+        <li><a href="#lojas" class="nav-item nav-pill" id="navLojasBtn">LOJAS</a></li>
+        <li><a href="#sobre" class="nav-item nav-pill" id="navSobreBtn">SOBRE NÓS</a></li>
+      </ul>
+
+      <button class="mobile-menu-btn" aria-label="Abrir menu" id="mobileMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- =========================================================================
+       1. PÁGINA INICIAL (Home & Sobre Nós - "Nossa Doce História")
+       ========================================================================= -->
+  <div id="homePage" class="page-view active-page">
+    <section class="hero-section hero-home" id="hero">
+      <!-- Fundo Exclusivo do Céu Amarelo com Nuvens -->
+      <div class="sky-background">
+        <img src="assets/images/sky-bg.png?v=6" alt="Céu Amarelo com Nuvens" class="sky-img" />
+      </div>
+
+      <!-- Container Hero: Textos à Esquerda e Casquinha à Direita -->
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-graphic-heading" data-animate="hero-title">
+            <img 
+              src="assets/images/title-home.png?v=6" 
+              alt="Para cada momento! Um Jundiá Sorvetes" 
+              class="hero-title-graphic home-title-graphic" 
+            />
+          </h1>
+          <p class="hero-subtitle" data-animate="hero-sub">
+            Descubra os sabores que encantam gerações na Sorveteria Jundiá Campinas Cambuí.
+          </p>
+          <div class="hero-cta-wrapper" data-animate="hero-btn">
+            <button class="btn-primary ripple-btn" id="btnVerSaboresHero">
+              <span class="btn-text">VER SABORES</span>
+              <span class="btn-shine"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Coluna da Direita: Casquinha na posição e tamanho exatos da referência -->
+        <div class="hero-image-wrapper">
+          <div class="icecream-container" id="icecreamHero" title="Sorvete Jundiá Delicioso" data-animate="hero-img">
+            <img 
+              src="assets/images/casquinha-element.png" 
+              alt="Sorvete de Casquinha Jundiá com Calda, Confeitos e Morangos" 
+              class="icecream-img" 
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Borda Curva Ondulada: 100% da mesma cor da página branca que desce (#ffffff) -->
+      <div class="wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,65 C340,120 620,25 960,85 C1190,120 1350,55 1440,70 L1440,120 L0,120 Z"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SEÇÃO "SOBRE NÓS / NOSSA DOCE HISTÓRIA" (Idêntica à Imagem Enviada!)
+         ======================================================================= -->
+    <main class="white-page sobre-nos-section" id="sobre">
+      <!-- Brilhos Amarelos Sutis no Fundo Branco (Ambient Glowing Orbs) -->
+      <div class="ambient-yellow-glow glow-top-right" aria-hidden="true"></div>
+      <div class="ambient-yellow-glow glow-bottom-left" aria-hidden="true"></div>
+
+      <!-- Confeitos Decorativos Laterais Sutis como na Referência -->
+      <div class="sprinkles-decor left-sprinkles" aria-hidden="true">
+        <span class="sp sp-pink"></span>
+        <span class="sp sp-blue"></span>
+        <span class="sp sp-yellow"></span>
+        <span class="sp sp-green"></span>
+      </div>
+      <div class="sprinkles-decor right-sprinkles" aria-hidden="true">
+        <span class="sp sp-yellow"></span>
+        <span class="sp sp-pink"></span>
+        <span class="sp sp-blue"></span>
+        <span class="sp sp-purple"></span>
+      </div>
+
+      <div class="container sobre-main-container">
+        <div class="sobre-two-columns">
+          
+          <!-- COLUNA DA ESQUERDA: Van Jundiá Transparente -->
+          <div class="sobre-left-col" data-animate="slide-left">
+            <div class="truck-showcase-wrapper" id="truckShowcase">
+              <img 
+                src="assets/images/sobre/truck-jundia.png?v=6" 
+                alt="Caminhão de Sorvetes Jundiá Campinas Cambuí" 
+                class="truck-jundia-img" 
+              />
+            </div>
+          </div>
+
+          <!-- COLUNA DA DIREITA: "Nossa Doce História" e Botão -->
+          <div class="sobre-right-col">
+            <h2 class="sobre-main-title" data-animate="slide-right" data-delay="0">Nossa Doce História</h2>
+            <h3 class="sobre-sub-heading" data-animate="fade-up" data-delay="0.12">Qualidade que Encanta Gerações</h3>
+
+            <p class="sobre-story-paragraph" data-animate="fade-up" data-delay="0.22">
+              A <strong>Sorvetes Jundiá Campinas Cambuí</strong> traz toda a tradição e encanto da marca que conquistou o coração dos brasileiros. Desde o início, nossa paixão é oferecer sabores autênticos, preparados com ingredientes naturais selecionados e um compromisso inegociável de criar alegria em cada colherada e casquinha. Aqui no bairro Cambuí, em Campinas, celebramos momentos doces em família com atendimento acolhedor, qualidade superior e orgulho das nossas raízes brasileiras!
+            </p>
+
+            <!-- Botão Largo "EXPLORAR TODOS OS SABORES" -->
+            <div class="sobre-cta-row" data-animate="card-pop" data-delay="0.32">
+              <button class="btn-primary btn-explorar-sabores ripple-btn" id="btnExplorarSaboresSobre">
+                <span>EXPLORAR TODOS OS SABORES</span>
+                <span class="btn-shine"></span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Onda Dourada Suave do Rodapé -->
+      <div class="sobre-bottom-cone-divider">
+        <svg class="footer-wave-svg" viewBox="0 0 1440 130" preserveAspectRatio="none">
+          <path d="M0,105 C320,30 580,125 920,65 C1180,20 1350,40 1440,15 L1440,130 L0,130 Z" fill="#ffd84d"></path>
+        </svg>
+      </div>
+    </main>
+  </div>
+
+  <!-- =========================================================================
+       2. PÁGINA DE SABORES
+       ========================================================================= -->
+  <div id="saboresPage" class="page-view">
+    <section class="hero-section hero-sabores" id="heroSabores">
+      <!-- Fundo do Céu Amarelo -->
+      <div class="sky-background">
+        <img src="assets/images/sky-bg.png?v=6" alt="Céu Amarelo com Nuvens" class="sky-img" />
+      </div>
+
+      <div class="hero-container">
+        <!-- Coluna da Esquerda: Textos da Página de Sabores -->
+        <div class="hero-content">
+          <h1 class="hero-graphic-heading" data-animate="hero-title">
+            <img 
+              src="assets/images/title-sabores.png?v=6" 
+              alt="Sabores e Cardápios" 
+              class="hero-title-graphic sabores-title-graphic" 
+            />
+          </h1>
+          <p class="hero-subtitle" data-animate="hero-sub">
+            Aqui cada sabor é uma experiência única. Descubra o seu favorito na Jundiá Campinas Cambuí e viva o melhor do verão em cada colherada!
+          </p>
+          <div class="hero-cta-wrapper" data-animate="hero-btn">
+            <button class="btn-primary btn-voltar-home ripple-btn" id="btnVoltarHome">
+              <span class="btn-arrow">←</span>
+              <span class="btn-text">VOLTAR PARA A PÁGINA INICIAL</span>
+              <span class="btn-shine"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Coluna da Direita: Pote de Sabores > 2x Maior e posicionado na borda -->
+        <div class="hero-image-wrapper">
+          <div class="icecream-container" id="icecreamBowlHero" data-animate="hero-img">
+            <img 
+              src="assets/images/icecream-bowl-tight.png" 
+              alt="Pote de Sorvete Jundiá com Calda e Morangos" 
+              class="icecream-img" 
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Borda Curva Ondulada: Cor idêntica da página inferior (#ffffff) -->
+      <div class="wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,45 C360,115 720,10 1060,95 C1240,125 1370,60 1440,50 L1440,120 L0,120 Z"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Seção Branca de Sabores Clássicos -->
+    <main class="white-page sabores-white-section">
+      <!-- Brilhos Amarelos Sutis no Fundo Branco (Ambient Glowing Orbs) -->
+      <div class="ambient-yellow-glow glow-top-left" aria-hidden="true"></div>
+      <div class="ambient-yellow-glow glow-mid-right" aria-hidden="true"></div>
+
+      <div class="container section-container pb-40">
+        <div class="classic-flavors-header">
+          <div class="section-title-badge" data-animate="slide-left" data-delay="0">
+            <span class="badge-icon-dash"></span>
+            <h2 class="classic-title">Sabores Clássicos</h2>
+          </div>
+          <p class="classic-subtitle" data-animate="fade-up" data-delay="0.1">
+            Os queridinhos de sempre na Jundiá Campinas Cambuí, que nunca saem de moda.
+          </p>
+        </div>
+
+        <!-- Grid com as imagens dos 6 Sabores Clássicos -->
+        <div class="flavors-grid-visual">
+          <div class="flavor-item-card" data-flavor="morango" data-animate="card-pop" data-delay="0">
+            <div class="flavor-img-wrapper">
+              <img src="assets/images/flavors/morango.png" alt="Sorvete Sabor Morango Jundiá" class="flavor-art" />
+            </div>
+            <div class="flavor-hover-overlay">
+              <span class="flavor-tag">Feito com fruta fresca</span>
+            </div>
+          </div>
+
+          <div class="flavor-item-card" data-flavor="chocolate" data-animate="card-pop" data-delay="0.08">
+            <div class="flavor-img-wrapper">
+              <img src="assets/images/flavors/chocolate.png" alt="Sorvete Sabor Chocolate Jundiá" class="flavor-art" />
+            </div>
+            <div class="flavor-hover-overlay">
+              <span class="flavor-tag">Cacau intenso e cremoso</span>
+            </div>
+          </div>
+
+          <div class="flavor-item-card" data-flavor="creme" data-animate="card-pop" data-delay="0.16">
+            <div class="flavor-img-wrapper">
+              <img src="assets/images/flavors/creme.png" alt="Sorvete Sabor Creme Jundiá" class="flavor-art" />
+            </div>
+            <div class="flavor-hover-overlay">
+              <span class="flavor-tag">Com favas de baunilha</span>
+            </div>
+          </div>
+
+          <div class="flavor-item-card" data-flavor="napolitano" data-animate="card-pop" data-delay="0.24">
+            <div class="flavor-img-wrapper">
+              <img src="assets/images/flavors/napolitano.png" alt="Sorvete Sabor Napolitano Jundiá" class="flavor-art" />
+            </div>
+            <div class="flavor-hover-overlay">
+              <span class="flavor-tag">O trio favorito de todos</span>
+            </div>
+          </div>
+
+          <div class="flavor-item-card" data-flavor="flocos" data-animate="card-pop" data-delay="0.32">
+            <div class="flavor-img-wrapper">
+              <img src="assets/images/flavors/flocos.png" alt="Sorvete Sabor Flocos Jundiá" class="flavor-art" />
+            </div>
+            <div class="flavor-hover-overlay">
+              <span class="flavor-tag">Pedaços crocantes de chocolate</span>
+            </div>
+          </div>
+
+          <div class="flavor-item-card" data-flavor="menta" data-animate="card-pop" data-delay="0.40">
+            <div class="flavor-img-wrapper">
+              <img src="assets/images/flavors/menta.png" alt="Sorvete Sabor Menta Jundiá" class="flavor-art" />
+            </div>
+            <div class="flavor-hover-overlay">
+              <span class="flavor-tag">Refrescância irresistível</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botão para ir ao Cardápio do iFood -->
+        <div class="sabores-cta-row" data-animate="card-pop" data-delay="0.2">
+          <a 
+            href="https://www.ifood.com.br/delivery/campinas-sp/jundia-cambui-cambui/f8519f83-2e69-4c8a-a6a1-bdfff766ef35?utm_medium=share" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="btn-primary btn-ifood-action ripple-btn"
+          >
+            <span class="btn-text">VER CARDÁPIO COMPLETO NO IFOOD</span>
+            <span class="btn-shine"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- =====================================================================
+           SEÇÃO CENTRALIZADA ("Qualidade de Verdade" - Informações no Centro)
+           ===================================================================== -->
+      <section class="model3d-showcase-section quality-center-section">
+        <div class="ambient-yellow-glow glow-center" aria-hidden="true"></div>
+        <div class="wave-top-3d" aria-hidden="true">
+          <svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+            <path d="M0,0 L1440,0 L1440,55 C1120,15 820,90 420,35 C180,5 60,40 0,55 Z" fill="#ffffff"></path>
+          </svg>
+        </div>
+
+        <div class="container quality-center-container">
+          <!-- Bloco Centralizado com Selo, Título, Texto e 4 Pilares -->
+          <div class="quality-info-col quality-centered-content">
+            <div class="quality-top-row quality-top-centered">
+              <div class="quality-ribbon-badge" data-animate="card-pop" data-delay="0">
+                <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 6L37.8 10.5L45 9.6L48.1 16.2L54.7 19.3L53.8 26.5L58.3 32.3L53.8 38.1L54.7 45.3L48.1 48.4L45 55L37.8 54.1L32 58.6L26.2 54.1L19 55L15.9 48.4L9.3 45.3L10.2 38.1L5.7 32.3L10.2 26.5L9.3 19.3L15.9 16.2L19 9.6L26.2 10.5L32 6Z" stroke="#cf1420" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M23 32.5L29 38.5L41.5 26" stroke="#cf1420" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M23 54L19 62L27 59L31 63V57" stroke="#522006" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M41 54L45 62L37 59L33 63V57" stroke="#522006" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="quality-vertical-divider"></div>
+              <div class="quality-text-block">
+                <h2 class="quality-heading" data-animate="slide-right" data-delay="0.08">Qualidade de Verdade</h2>
+                <p class="quality-description" data-animate="fade-up" data-delay="0.18">
+                  Usamos ingredientes selecionados e todo o nosso carinho para entregar o melhor sorvete em Campinas Cambuí, sempre.
+                </p>
+              </div>
+            </div>
+
+            <!-- 4 Pilares Centralizados -->
+            <div class="quality-pillars-row quality-pillars-centered">
+              <div class="pillar-item" data-animate="card-pop" data-delay="0.05">
+                <svg class="pillar-svg" viewBox="0 0 24 24" fill="none" stroke="#cf1420" stroke-width="2">
+                  <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Ingredientes<br />Selecionados</span>
+              </div>
+
+              <div class="pillar-sep"></div>
+
+              <div class="pillar-item" data-animate="card-pop" data-delay="0.15">
+                <svg class="pillar-svg" viewBox="0 0 24 24" fill="none" stroke="#cf1420" stroke-width="2">
+                  <line x1="12" y1="2" x2="12" y2="22" stroke-linecap="round"/>
+                  <line x1="2" y1="12" x2="22" y2="12" stroke-linecap="round"/>
+                  <line x1="4.93" y1="4.93" x2="19.07" y2="19.07" stroke-linecap="round"/>
+                  <line x1="19.07" y1="4.93" x2="4.93" y2="19.07" stroke-linecap="round"/>
+                </svg>
+                <span>Mais<br />Cremoso</span>
+              </div>
+
+              <div class="pillar-sep"></div>
+
+              <div class="pillar-item" data-animate="card-pop" data-delay="0.25">
+                <svg class="pillar-svg" viewBox="0 0 24 24" fill="none" stroke="#cf1420" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Feito<br />com Carinho</span>
+              </div>
+
+              <div class="pillar-sep"></div>
+
+              <div class="pillar-item" data-animate="card-pop" data-delay="0.35">
+                <svg class="pillar-svg" viewBox="0 0 24 24" fill="none" stroke="#cf1420" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Sabor<br />Incomparável</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- =========================================================================
+       3. PÁGINA DE LOJAS (Franquia Exclusiva Campinas Cambuí + Google Maps)
+       ========================================================================= -->
+  <div id="lojasPage" class="page-view">
+    <section class="hero-section hero-lojas" id="heroLojas">
+      <!-- Fundo do Céu Amarelo -->
+      <div class="sky-background">
+        <img src="assets/images/sky-bg.png?v=6" alt="Céu Amarelo com Nuvens" class="sky-img" />
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-graphic-heading" data-animate="hero-title">
+            <img 
+              src="assets/images/title-lojas.png?v=6" 
+              alt="Visite a Jundiá!" 
+              class="hero-title-graphic lojas-title-graphic" 
+            />
+          </h1>
+          <p class="hero-subtitle" data-animate="hero-sub">
+            Venha viver momentos deliciosos na nossa loja física no Cambuí ou peça agora pelo iFood e WhatsApp!
+          </p>
+
+          <!-- Barra de Busca Branca com texto vermelho -->
+          <div class="lojas-hero-search" data-animate="hero-btn">
+            <span class="search-pin-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="#cf1420">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+            </span>
+            <input type="text" id="cepSearchInput" placeholder="Campinas - Cambuí, SP" class="lojas-search-input" />
+            <button class="lojas-search-submit" aria-label="Buscar">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#cf1420" stroke-width="2.5">
+                <circle cx="11" cy="11" r="7" />
+                <line x1="20" y1="20" x2="16.35" y2="16.35" stroke-linecap="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Coluna da Direita -->
+        <div class="hero-image-wrapper">
+          <div class="icecream-container" id="icecreamLojasHero" data-animate="hero-img">
+            <img 
+              src="assets/images/casquinha-element.png" 
+              alt="Sorvete de Casquinha Jundiá" 
+              class="icecream-img" 
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Borda Curva Ondulada Branca -->
+      <div class="wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,55 C360,115 720,15 1080,85 C1260,115 1370,55 1440,65 L1440,120 L0,120 Z"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Seção Branca de Mapa e Informações da Franquia Campinas Cambuí -->
+    <main class="white-page lojas-white-section">
+      <!-- Brilhos Amarelos Sutis no Fundo Branco (Ambient Glowing Orbs) -->
+      <div class="ambient-yellow-glow glow-top-right" aria-hidden="true"></div>
+      <div class="ambient-yellow-glow glow-bottom-left" aria-hidden="true"></div>
+
+      <div class="container section-container">
+        <div class="lojas-section-header">
+          <div class="lojas-title-row" data-animate="slide-left" data-delay="0">
+            <span class="red-pin-badge">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="#e60012">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+            </span>
+            <h2 class="classic-title">Sorveteria Jundiá Campinas Cambuí</h2>
+          </div>
+
+          <div class="lojas-filter-pills" data-animate="fade-up" data-delay="0.12">
+            <button class="filter-pill active" data-filter="todas">Nossa Loja</button>
+            <button class="filter-pill" data-filter="lojas">Delivery iFood</button>
+            <button class="filter-pill" data-filter="revendedores">Atendimento WhatsApp</button>
+          </div>
+        </div>
+
+        <!-- Grid 2 Colunas: Google Maps Iframe à Esquerda + Cards da Franquia Cambuí à Direita -->
+        <div class="lojas-map-grid">
+          <div class="map-iframe-container" data-animate="slide-left">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.519430116613!2d-47.0585676238655!3d-22.89420443742308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf3ebdbb8b81%3A0x8938780c3b841ffe!2sSorveteria%20Jundi%C3%A1%20Campinas%20Cambu%C3%AD!5e0!3m2!1spt-BR!2sbr!4v1790395151296!5m2!1spt-BR!2sbr" 
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="strict-origin-when-cross-origin"
+              title="Mapa Sorveteria Jundiá Campinas Cambuí"
+            ></iframe>
+          </div>
+
+          <!-- Cards de Atendimento da Unidade Campinas Cambuí -->
+          <div class="stores-list-wrapper">
+            <!-- Card 1: Loja Física Cambuí -->
+            <div class="store-item-card" data-category="lojas" data-animate="card-pop" data-delay="0">
+              <img src="assets/images/ui/store-1.png" alt="Jundiá Campinas Cambuí" class="store-thumb" />
+              <div class="store-details">
+                <div class="store-title-with-logo">
+                  <h3>Jundiá Campinas Cambuí</h3>
+                </div>
+                <p class="store-address">
+                  <span class="pin-red">📍</span>
+                  <span><strong>Cambuí - Campinas, SP</strong><br />Unidade Oficial Sorveteria Jundiá no coração do Cambuí</span>
+                </p>
+                <p class="store-hours">
+                  <span>🕒</span> Todos os dias: Horário Especial de Verão
+                </p>
+              </div>
+              <a href="https://www.google.com/maps/search/?api=1&query=Sorveteria+Jundi%C3%A1+Campinas+Cambu%C3%AD" target="_blank" rel="noopener" class="btn-ver-rota ripple-btn">
+                <span>VER ROTA</span>
+              </a>
+            </div>
+
+            <!-- Card 2: Delivery Oficial iFood Cambuí -->
+            <div class="store-item-card" data-category="lojas" data-animate="card-pop" data-delay="0.12">
+              <img src="assets/images/ui/store-2.png" alt="Delivery iFood Jundiá Cambuí" class="store-thumb" />
+              <div class="store-details">
+                <div class="store-title-with-logo">
+                  <h3>Delivery iFood Cambuí</h3>
+                </div>
+                <p class="store-address">
+                  <span class="pin-red">🛵</span>
+                  <span><strong>Peça sem sair de casa</strong><br />Receba seus potes, picolés e açaí geladinhos em Campinas</span>
+                </p>
+                <p class="store-hours">
+                  <span>⚡</span> Entrega Rápida iFood
+                </p>
+              </div>
+              <a href="https://www.ifood.com.br/delivery/campinas-sp/jundia-cambui-cambui/f8519f83-2e69-4c8a-a6a1-bdfff766ef35?utm_medium=share" target="_blank" rel="noopener" class="btn-ver-rota ripple-btn">
+                <span>PEDIR NO IFOOD</span>
+              </a>
+            </div>
+
+            <!-- Card 3: WhatsApp e Instagram Cambuí -->
+            <div class="store-item-card" data-category="revendedores" data-animate="card-pop" data-delay="0.24">
+              <img src="assets/images/ui/store-3.png" alt="WhatsApp Jundiá Cambuí" class="store-thumb" />
+              <div class="store-details">
+                <div class="store-title-with-logo">
+                  <h3>Atendimento WhatsApp</h3>
+                </div>
+                <p class="store-address">
+                  <span class="pin-red">💬</span>
+                  <span><strong>(19) 99872-9740</strong><br />Encomendas para festas, eventos e dúvidas direto com a loja</span>
+                </p>
+                <p class="store-hours">
+                  <span>📸</span> @jundia.campinas.cambui
+                </p>
+              </div>
+              <a href="https://wa.me/5519998729740" target="_blank" rel="noopener" class="btn-ver-rota ripple-btn">
+                <span>WHATSAPP</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- =========================================================================
+       RODAPÉ OFICIAL DA FRANQUIA JUNDIÁ CAMPINAS CAMBUÍ + BOTÕES SOCIAIS AMARELOS
+       ========================================================================= -->
+  <footer class="site-footer" id="rodape">
+    <div class="container footer-bar-container">
+      <div class="footer-left-brand">
+        <img src="assets/images/logo.png?v=6" alt="Logo Jundiá Sorvetes" class="footer-brand-logo" />
+        <div class="footer-franchise-info">
+          <strong>Sorveteria Jundiá - Campinas Cambuí</strong>
+          <span>A doçura e alegria da Jundiá no coração do Cambuí!</span>
+        </div>
+      </div>
+
+      <div class="footer-center-links">
+        <a href="#sobre" class="footer-link-item" id="footerSobreLink">Sobre Nós</a>
+        <a href="#sabores" class="footer-link-item" id="footerSaboresLink">Sabores</a>
+        <a href="#lojas" class="footer-link-item" id="footerLojasLink">Localização</a>
+      </div>
+
+      <!-- Os 3 Botões Redondos Amarelos com Ícones Nitidamente Desenhados -->
+      <div class="social-blue-buttons">
+        <!-- 1. Instagram -->
+        <a 
+          href="https://www.instagram.com/jundia.campinas.cambui/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="jundia-social-btn yellow-social-btn ripple-btn" 
+          aria-label="Instagram Jundiá Campinas Cambuí"
+          title="Siga no Instagram @jundia.campinas.cambui"
+        >
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" stroke="currentColor" stroke-width="2.2" fill="none"/>
+            <circle cx="12" cy="12" r="4.3" stroke="currentColor" stroke-width="2.2" fill="none"/>
+            <circle cx="17.5" cy="6.5" r="1.35" fill="currentColor"/>
+          </svg>
+        </a>
+
+        <!-- 2. iFood -->
+        <a 
+          href="https://www.ifood.com.br/delivery/campinas-sp/jundia-cambui-cambui/f8519f83-2e69-4c8a-a6a1-bdfff766ef35?utm_medium=share" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="jundia-social-btn yellow-social-btn ripple-btn" 
+          aria-label="iFood Jundiá Campinas Cambuí"
+          title="Peça pelo iFood - Jundiá Cambuí"
+        >
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="33" cy="34" rx="8" ry="12" transform="rotate(15 33 34)" fill="currentColor" />
+            <ellipse cx="58" cy="34" rx="8" ry="12" transform="rotate(15 58 34)" fill="currentColor" />
+            <path d="M22 56 C 32 74, 62 76, 77 56" stroke="currentColor" stroke-width="9" stroke-linecap="round" fill="none" />
+            <path d="M65 53 L 81 53 L 77 69" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+          </svg>
+        </a>
+
+        <!-- 3. WhatsApp (Desenho Oficial Corrigido) -->
+        <a 
+          href="https://wa.me/5519998729740" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="jundia-social-btn yellow-social-btn ripple-btn" 
+          aria-label="WhatsApp Jundiá Campinas Cambuí"
+          title="Chame no WhatsApp (19) 99872-9740"
+        >
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.334.101 11.893c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.447h.006c6.585 0 11.946-5.336 11.949-11.896 0-3.176-1.24-6.165-3.48-8.55zm-8.475 18.327h-.005c-1.774 0-3.513-.477-5.032-1.378l-.361-.214-3.76.98 1.005-3.648-.235-.374a9.86 9.86 0 0 1-1.516-5.26c.002-5.45 4.457-9.884 9.909-9.884 2.648 0 5.138 1.03 7.01 2.898a9.825 9.825 0 0 1 2.9 7.002c-.003 5.45-4.458 9.878-9.915 9.878zm5.438-7.397c-.298-.15-1.765-.867-2.038-.967-.273-.099-.472-.149-.671.15-.198.298-.77.966-.944 1.164-.174.199-.347.223-.646.075-.298-.15-1.259-.462-2.398-1.475-.886-.788-1.485-1.761-1.659-2.06-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.521.15-.174.199-.298.298-.497.1-.198.05-.372-.025-.521-.075-.15-.671-1.612-.92-2.208-.242-.579-.487-.5-.671-.51-.173-.008-.372-.01-.571-.01-.198 0-.521.074-.795.372-.273.298-1.043 1.017-1.043 2.48 0 1.464 1.068 2.878 1.217 3.077.149.198 2.102 3.2 5.093 4.487.711.306 1.267.489 1.7.626.714.226 1.364.194 1.878.118.573-.085 1.765-.72 2.013-1.415.249-.694.249-1.29.174-1.414-.074-.124-.273-.198-.571-.347z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sorveteria Jundiá Campinas Cambuí | WhatsApp: (19) 99872-9740 | Instagram: @jundia.campinas.cambui</p>
+    </div>
+  </footer>
+
+  <!-- Dock Flutuante Lateral/Inferior com os 3 Botões Amarelos Animados (Sempre Visível!) -->
+  <div class="floating-social-dock" aria-label="Redes Sociais e Pedidos Jundiá Cambuí">
+    <a 
+      href="https://www.instagram.com/jundia.campinas.cambui/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="jundia-social-btn yellow-social-btn floating-btn" 
+      title="Instagram @jundia.campinas.cambui"
+    >
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" stroke="currentColor" stroke-width="2.2" fill="none"/>
+        <circle cx="12" cy="12" r="4.3" stroke="currentColor" stroke-width="2.2" fill="none"/>
+        <circle cx="17.5" cy="6.5" r="1.35" fill="currentColor"/>
+      </svg>
+    </a>
+
+    <a 
+      href="https://www.ifood.com.br/delivery/campinas-sp/jundia-cambui-cambui/f8519f83-2e69-4c8a-a6a1-bdfff766ef35?utm_medium=share" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="jundia-social-btn yellow-social-btn floating-btn" 
+      title="Peça no iFood - Jundiá Cambuí"
+    >
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="33" cy="34" rx="8" ry="12" transform="rotate(15 33 34)" fill="currentColor" />
+        <ellipse cx="58" cy="34" rx="8" ry="12" transform="rotate(15 58 34)" fill="currentColor" />
+        <path d="M22 56 C 32 74, 62 76, 77 56" stroke="currentColor" stroke-width="9" stroke-linecap="round" fill="none" />
+        <path d="M65 53 L 81 53 L 77 69" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      </svg>
+    </a>
+
+    <a 
+      href="https://wa.me/5519998729740" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="jundia-social-btn yellow-social-btn floating-btn" 
+      title="WhatsApp (19) 99872-9740"
+    >
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.334.101 11.893c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.447h.006c6.585 0 11.946-5.336 11.949-11.896 0-3.176-1.24-6.165-3.48-8.55zm-8.475 18.327h-.005c-1.774 0-3.513-.477-5.032-1.378l-.361-.214-3.76.98 1.005-3.648-.235-.374a9.86 9.86 0 0 1-1.516-5.26c.002-5.45 4.457-9.884 9.909-9.884 2.648 0 5.138 1.03 7.01 2.898a9.825 9.825 0 0 1 2.9 7.002c-.003 5.45-4.458 9.878-9.915 9.878zm5.438-7.397c-.298-.15-1.765-.867-2.038-.967-.273-.099-.472-.149-.671.15-.198.298-.77.966-.944 1.164-.174.199-.347.223-.646.075-.298-.15-1.259-.462-2.398-1.475-.886-.788-1.485-1.761-1.659-2.06-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.521.15-.174.199-.298.298-.497.1-.198.05-.372-.025-.521-.075-.15-.671-1.612-.92-2.208-.242-.579-.487-.5-.671-.51-.173-.008-.372-.01-.571-.01-.198 0-.521.074-.795.372-.273.298-1.043 1.017-1.043 2.48 0 1.464 1.068 2.878 1.217 3.077.149.198 2.102 3.2 5.093 4.487.711.306 1.267.489 1.7.626.714.226 1.364.194 1.878.118.573-.085 1.765-.72 2.013-1.415.249-.694.249-1.29.174-1.414-.074-.124-.273-.198-.571-.347z" fill="currentColor"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Framer Motion Library (Motion UMD Oficial) -->
+  <script src="assets/js/motion.js"></script>
+  <script src="script.js?v=14"></script>
+</body>
+</html>
